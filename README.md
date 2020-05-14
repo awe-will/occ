@@ -2,11 +2,10 @@
 Oracle Coding Challenge
 
 Build Instructions (Windows):
--- Note: Instruction lines and comments begin with a '--', command lines do not begin with a '--'.
 -- Download the 5 repository files to a directory on your Windows machine.
 
 -- Launch Command Prompt 
--- Enter the command below to navigate to the directory that contains the files where <path> is the directory path.
+-- Enter the command below to navigate to the directory/path that contains the files.
 cd <path>
 
 -- Enter the command below to connect as user (username) to database (connect_identifier) using SQL*Plus.
