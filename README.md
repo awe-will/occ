@@ -43,6 +43,7 @@ Run Instructions (Windows):
 -- <emp_salary> is a number parameter.
 
 EXECUTE create_employee(<emp_name>, <emp_title>, <mgr_name>, <employment_date>,  <emp_salary>, <emp_dept>);
+COMMIT;
 
 
 -- To change an employee's salary, enter the command below.
@@ -54,13 +55,15 @@ EXECUTE create_employee(<emp_name>, <emp_title>, <mgr_name>, <employment_date>, 
 
 
 EXECUTE change_employee_salary (<employee_name>, <percentage_change>);
+COMMIT;
 
 
--- To change an employee's department, enter the command below.
+-- To change an employee's department, enter the commands below.
 
 -- <employee_name> and <new_department> are varchar2 parameters.
 
 EXECUTE change_employee_dept (<employee_name>, <new_department>);
+COMMIT;
 
 
 -- To get an employee's salary, enter the command below.
